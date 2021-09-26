@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "strict": false,
+    "moduleResolution": "node",
+    "removeComments": false
+  }
+}

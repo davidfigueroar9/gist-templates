@@ -1,0 +1,36 @@
+{
+  "name": "gt-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for create a react component easily",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "c": "tsc && node ./dist/index.js"
+  },
+  "bin": {
+    "gt": "./dist/commands.js"
+  },
+  "keywords": [
+    "cli",
+    "reactjs"
+  ],
+  "author": "David Figueroa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.7.7",
+    "@types/yargs": "^17.0.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
