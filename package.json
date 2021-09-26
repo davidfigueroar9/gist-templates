@@ -4,7 +4,7 @@
   "description": "Command line interface for create a react component easily",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test",
+    "test": "node ./test.js",
     "build": "webpack",
     "c": "tsc && node ./dist/index.js"
   },
