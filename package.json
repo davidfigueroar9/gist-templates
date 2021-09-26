@@ -1,5 +1,5 @@
 {
-  "name": "gt-cli",
+  "name": "@davidfigueroar9/gist-templates",
   "version": "1.0.0",
   "description": "Command line interface for create a react component easily",
   "main": "dist/index.js",
@@ -15,6 +15,9 @@
     "cli",
     "reactjs"
   ],
+  "publishConfig": {
+    "@davidfigueroar9:registry": "https://npm.pkg.github.com"
+  },
   "author": "David Figueroa",
   "license": "MIT",
   "dependencies": {
